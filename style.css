@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+li a {
+  color: white;
+}
+
+body {
+  background-image: url(../4183289.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 55%;
+  background-attachment: fixed;
+  font-family: "Exo", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 130px;
+  height: 100px;
+}
+
+.navbar-brand {
+  font-size: 45px;
+  color: rgb(255, 153, 0);
+}
+
+ul li {
+  padding: 0px 23px;
+  font-size: 18px;
+}
+
+#tkt {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.jumbotron {
+  position: absolute;
+  height: 900px;
+  background: transparent;
+  padding: 10% 10%;
+  line-height: 35px;
+}
+
+#date {
+  font-size: 18px;
+  color: white;
+  word-spacing: 10px;
+}
+
+.congr {
+  font-size: 85px;
+  font-weight: bold;
+  color: rgb(255, 153, 0);
+}
+
+#infotext {
+  width: 43%;
+  color: white;
+}
+
+.btn {
+  color: white;
+  font-weight: 500;
+}
+
+.btns {
+  font-family: "Nunito", sans-serif;
+}
+
+#aboutbtn {
+  margin-left: 20px;
+}
+.nav {
+  position: relative;
+  float: right;
+}
+
+nav .sociallinks {
+  margin-right: 15px;
+  margin-top: 300px;
+}
+
+.sociallinks a {
+  font-size: 25px;
+  color: white;
+}
